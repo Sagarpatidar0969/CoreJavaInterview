@@ -2,7 +2,7 @@ package com.rays.exception;
 
 public class TryWithMultiCatchFInally {
 	public static void main(String[] args) {
-		String s =null;
+		String s ="ub";
 		//String s = "sagar";
 		
 		try {
@@ -11,7 +11,7 @@ public class TryWithMultiCatchFInally {
 			
 		}catch(NullPointerException e) {
 			System.out.println(e);
-		}catch(StringIndexOutOfBoundsException e) {
+		}catch(ArithmeticException e) {
 			System.out.println(e);
 			System.exit(0);
 		}finally {
