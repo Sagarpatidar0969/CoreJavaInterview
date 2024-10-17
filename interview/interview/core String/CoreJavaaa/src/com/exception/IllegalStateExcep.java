@@ -26,6 +26,7 @@ public class IllegalStateExcep {
 	                iterator.remove();  // This will cause IllegalStateException
 	            }
 	        } catch (IllegalStateException e) {
+	        	System.out.println(e);
 	            System.out.println("IllegalStateException caught!");
 	            e.printStackTrace();
 	        }

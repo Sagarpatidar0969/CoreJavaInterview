@@ -24,7 +24,9 @@ public class ListDuplicateElement {
 			if(s.add(str)==false) {
 				System.out.println(str);
 			}
-		}
+		
+		}	
+		System.out.println(s);
 	}
 
 }

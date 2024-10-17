@@ -9,14 +9,14 @@ public class IOExceptionExa {
 		
 	
 	
-		 File f = new File("E:\\MongoDB.txt");
+		 File f = new File("E:\\MongoDB.txtc");
 	
 	try {
 		FileReader r = new FileReader(f);
 		System.out.println("success");
 	}catch(IOException e) {
 		System.out.println("IOException" +"   "+e.getMessage());
-		//System.out.println(e);
+		System.out.println(e);
 	}
 
 }

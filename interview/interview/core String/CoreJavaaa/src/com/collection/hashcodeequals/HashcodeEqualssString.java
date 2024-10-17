@@ -6,7 +6,7 @@ public class HashcodeEqualssString {
 	public int id;
 	public int salary;
 	
-	public HashcodeEqualssString(int id ,String name,int slary) {
+	public HashcodeEqualssString(int id ,String name,int salary) {
 		this.id= id;
 		this.name= name;
 		this.salary = salary;

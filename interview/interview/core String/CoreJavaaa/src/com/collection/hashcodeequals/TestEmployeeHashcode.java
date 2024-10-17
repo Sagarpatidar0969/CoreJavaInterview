@@ -10,6 +10,8 @@ public class TestEmployeeHashcode {
 		Employee e1 = new Employee(1, "abc", 1000);
 
 		Employee e2 = new Employee(1, "abc", 1000);
+		
+	
 
 		Map map = new HashMap();
 

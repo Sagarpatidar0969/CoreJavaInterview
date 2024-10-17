@@ -10,6 +10,8 @@ public class CapacityAndSizeInVector {
 	v.add("sr");
 	v.add(3);
 	
+	v.remove(0);
+	System.out.println(v);
 	System.out.println(v.capacity());
 	System.out.println(v.size());
 }

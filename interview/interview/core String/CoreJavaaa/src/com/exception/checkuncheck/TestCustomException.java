@@ -6,6 +6,8 @@ public class TestCustomException {
 		try {
 			dad();
 		}catch(CustomCheckedException e ) {
+			e.printStackTrace();
+			System.out.println(e);
 			System.out.println(e.getMessage());
 		}
 	}

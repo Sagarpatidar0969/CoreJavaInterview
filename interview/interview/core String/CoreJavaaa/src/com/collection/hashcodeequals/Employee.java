@@ -24,8 +24,6 @@ public class Employee {
 	public int getSalary() {
 		return salary;
 	}
-
-	@Override
 	public boolean equals(Object obj) {
 
 		System.out.println("in equals method");
