@@ -17,7 +17,7 @@ public class ReadAndWritePrimitiveData {
         out.writeDouble(45.25);     // Write a double (8 bytes)
         out.writeChar('A');         // Write a char (2 bytes)
         out.writeFloat(2.2F);       // Write a float (4 bytes)
-
+       out.writeUTF("sagar");
         out.close();
 
         System.out.println("Data added");
@@ -30,7 +30,7 @@ public class ReadAndWritePrimitiveData {
         System.out.println(in.readDouble());     // Read double (8 bytes)
         System.out.println(in.readChar());       // Read char (2 bytes)
         System.out.println(in.readFloat());      // Read float (4 bytes)
-
+        System.out.println(in.readUTF());
         in.close();
     }
 }

@@ -4,7 +4,7 @@ public class ChildExplicit extends ParentExplicit{
 
 	public ChildExplicit(int a) {
 		
-	//	super(a);
+		//super(a);
 		
 		System.out.println("no" + " " + a);
 		

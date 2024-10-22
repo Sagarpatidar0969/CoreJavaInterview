@@ -18,7 +18,7 @@ public class MergeFile {
 			
 			file.write(s1);
 			
-			s1 = br.readLine();
+		s1 = br.readLine();
 			
 		}
 		
