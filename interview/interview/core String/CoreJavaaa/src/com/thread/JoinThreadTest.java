@@ -4,6 +4,7 @@ public class JoinThreadTest {
 	public static void main(String[] args) {
 		JoinThread t1 = new JoinThread("sagar");
 		JoinThread t2 = new JoinThread("dilip");
+		//JoinThread t3 = new JoinThread("neeraj");
 		
 		t1.start();
 		
